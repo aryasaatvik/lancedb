@@ -1,5 +1,5 @@
 {
-	"name": "@lancedb/lancedb-linux-arm64-gnu",
+	"name": "@aryalabs/lancedb-linux-arm64-gnu",
 	"version": "0.19.1-beta.5",
 	"os": ["linux"],
 	"cpu": ["arm64"],

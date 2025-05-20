@@ -1,5 +1,5 @@
 {
-	"name": "@lancedb/lancedb-darwin-x64",
+	"name": "@aryalabs/lancedb-darwin-x64",
 	"version": "0.19.1-beta.5",
 	"os": ["darwin"],
 	"cpu": ["x64"],

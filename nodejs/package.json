@@ -1,5 +1,5 @@
 {
-  "name": "@lancedb/lancedb",
+  "name": "@aryalabs/lancedb",
   "description": "LanceDB: A serverless, low-latency vector database for AI applications",
   "keywords": [
     "database",
@@ -68,8 +68,15 @@
   "engines": {
     "node": ">= 18"
   },
-  "cpu": ["x64", "arm64"],
-  "os": ["darwin", "linux", "win32"],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
   "scripts": {
     "artifacts": "napi artifacts",
     "build:debug": "napi build --platform --no-const-enum --dts ../lancedb/native.d.ts --js ../lancedb/native.js lancedb",
@@ -98,5 +105,10 @@
   },
   "peerDependencies": {
     "apache-arrow": ">=15.0.0 <=18.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aryasaatvik/lancedb",
+    "directory": "nodejs"
   }
 }
