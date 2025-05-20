@@ -11,7 +11,7 @@
     "ann"
   ],
   "private": false,
-  "version": "0.19.1-beta.5",
+  "version": "0.19.1-beta.6",
   "main": "dist/index.js",
   "exports": {
     ".": "./dist/index.js",
@@ -60,7 +60,9 @@
     "typedoc": "^0.26.4",
     "typedoc-plugin-markdown": "^4.2.1",
     "typescript": "^5.5.4",
-    "typescript-eslint": "^7.1.0"
+    "typescript-eslint": "^7.1.0",
+    "@huggingface/transformers": "^3.0.2",
+    "openai": "^4.29.2"
   },
   "ava": {
     "timeout": "3m"
@@ -100,11 +102,19 @@
     "reflect-metadata": "^0.2.2"
   },
   "optionalDependencies": {
-    "@huggingface/transformers": "^3.0.2",
-    "openai": "^4.29.2"
+    "@aryalabs/lancedb-darwin-x64": "0.19.1-beta.6",
+    "@aryalabs/lancedb-darwin-arm64": "0.19.1-beta.6",
+    "@aryalabs/lancedb-linux-x64-gnu": "0.19.1-beta.6",
+    "@aryalabs/lancedb-linux-arm64-gnu": "0.19.1-beta.6",
+    "@aryalabs/lancedb-linux-x64-musl": "0.19.1-beta.6",
+    "@aryalabs/lancedb-linux-arm64-musl": "0.19.1-beta.6",
+    "@aryalabs/lancedb-win32-x64-msvc": "0.19.1-beta.6",
+    "@aryalabs/lancedb-win32-arm64-msvc": "0.19.1-beta.6"
   },
   "peerDependencies": {
-    "apache-arrow": ">=15.0.0 <=18.1.0"
+    "apache-arrow": ">=15.0.0 <=18.1.0",
+    "@huggingface/transformers": "^3.0.2",
+    "openai": "^4.29.2"
   },
   "repository": {
     "type": "git",
